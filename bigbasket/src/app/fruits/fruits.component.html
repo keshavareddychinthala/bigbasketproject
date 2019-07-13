@@ -1,0 +1,25 @@
+
+<br>
+
+<br>
+
+<br>
+<br>
+
+<div class="row jumbotron mx-auto col-6 container"> 
+    <div class="col">
+    <img src="{{details.pic}}" class="img-fluid zoom" width="auto">
+    </div>
+    <div class="col-4">
+            <h2><b class="h2">Name:-</b>
+            {{details.name}}</h2>
+            <h2><b class="h2">cost:-</b> {{details.cost}}/-</h2>
+            <div *ngIf="!status">
+            <button (click)="fn()" class="btn btn-primary">Add Cart</button>
+        </div>
+        <div *ngIf="status">
+            <button class="btn btn-success">Buy</button>
+        
+    
+    
+    </div>

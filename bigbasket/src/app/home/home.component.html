@@ -1,0 +1,102 @@
+<br><br><br><br>
+<main>
+<div id="demo" class="carousel slide" data-ride="carousel" >
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+          <a routerLink="/kitchen"> <img src="assets/h3.JPG" alt="Los Angeles" width="1100" height="500"></a>
+          </div>
+          <div class="carousel-item">
+                <a routerLink="/kitchen">  <img src="assets/h4.JPG" alt="Chicago" width="1100" height="500"></a>
+          </div>
+          <div class="carousel-item">
+                <a routerLink="/kitchen">  <img src="assets/h5.JPG" alt="New York" width="1100" height="500"></a>
+                
+          </div>
+          <div class="carousel-item">
+                <a routerLink="/kitchen">  <img src="assets/home1.JPG" alt="New York" width="1100" height="500"></a>
+          </div>
+          <div class="carousel-item">
+                <a routerLink="/kitchen">  <img src="assets/homepage2.JPG" alt="New York" width="1100" height="500"></a>
+          </div>
+        </div>
+        
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+
+<br>
+<br>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light container">
+       <a routerLink="/dryfruits">   <button class="btn btn-lg" style="border-radius: 25px;background-color: #1b4b92;color: white">Dry Fruits</button></a>&nbsp;&nbsp;&nbsp;
+       <a routerLink="/kitchen"> <button class="btn btn-lg" style="border-radius: 25px;background-color: #1b4b92;color: white">Home & Kitchen</button></a>&nbsp;&nbsp;&nbsp;
+        <a routerLink="/mango">  <button class="btn btn-lg"style="border-radius: 25px;background-color: #1b4b92;color: white">Mango</button></a>&nbsp;&nbsp;&nbsp;
+            <a routerLink="/beauty"> <button class="btn btn-lg" style="border-radius: 25px;background-color: #1b4b92;color: white">Exotic F&V</button></a>&nbsp;&nbsp;&nbsp;
+                <a routerLink="/organic">  <button class="btn btn-lg" style="border-radius: 25px;background-color: #1b4b92;color: white">Organic Store</button></a>&nbsp;&nbsp;&nbsp;
+                    <a  routerLink="/deals">   <button class="btn btn-lg" style="border-radius: 25px;background-color: #1b4b92;color: white">Deals of the Week</button></a>&nbsp;&nbsp;&nbsp;
+
+          
+</nav>
+<div class="container">
+
+    
+<div id="demo1" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo1" data-slide-to="0" class="active"></li>
+          <li data-target="#demo1" data-slide-to="1"></li>
+          <li data-target="#demo1" data-slide-to="2"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+          <a routerLink="/meat" > <img src="assets/bh1.JPG" alt="Los Angeles" width="1100" height="500"></a>
+          </div>
+          <div class="carousel-item">
+                <a routerLink="/beauty" >  <img src="assets/bh2.JPG" alt="Chicago" width="1100" height="500"></a>
+          </div>
+          <div class="carousel-item">
+                <a routerLink="/deals" >  <img src="assets/bh3.JPG" alt="New York" width="1100" height="500"></a>
+                
+          </div>
+         
+        </div>
+        
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo1" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo1" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+</div>
+</main>
+<br>
+<br>
+<div class=" text-center">
+    <h4> Affiliates</h4>
+</div>
+<div class="container">
+
+    <div class="row">
+        <div class="col-3" *ngFor="let a of images1" >
+       <a href="{{a.link}}"> <img src="{{a.pic}}"></a>
+    </div>
+</div>
+</div>

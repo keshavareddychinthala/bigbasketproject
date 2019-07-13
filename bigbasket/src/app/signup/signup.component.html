@@ -1,0 +1,40 @@
+<br><br><br><br><br>
+
+<div><div class="jumbotron form-group col-5 mx-auto">
+   <p style="text-align: center"><b>Signup</b></p>
+    <form [formGroup]="signup" (submit)="f(signup.value)">
+        
+           Name:
+            <input type="text" formControlName="username" class="form-control" [ngClass]="{'is-invalid':signup.get('username').invalid&&signup.get('username').touched,'is-valid':signup.get('username').valid}">
+            <div *ngIf="signup.get('username').invalid&&signup.get('username').touched">
+                <p style="color: red" *ngIf="signup.get('username').errors.required">please enter the name</p>
+                <p style="color: red" *ngIf="signup.get('username').errors.minlength">please enter the minlength</p>
+                <p style="color: red" *ngIf="signup.get('username').errors.pattern">please enter valid name</p>
+                </div>
+          Mobile Number:
+            <input type="text" formControlName="contact" class="form-control" [ngClass]="{'is-invalid':signup.get('contact').invalid&&signup.get('contact').touched,'is-valid':signup.get('contact').valid}">
+            <div *ngIf="signup.get('contact').invalid&&signup.get('contact').touched">
+                <p style="color: red" *ngIf="signup.get('contact').errors.required">please enter the correct number</p>
+                <p style="color: red" *ngIf="signup.get('contact').errors.minlength">please enter 10 digits MObile number</p>
+                <p style="color: red" *ngIf="signup.get('contact').errors.maxlength">please enter 10 digits MObile number</p>
+                <p style="color: red" *ngIf="signup.get('contact').errors.pattern">enter mobile number</p>
+                </div>
+            Password:
+            <input type="text" formControlName="password" class="form-control" [ngClass]="{'is-invalid':signup.get('password').invalid&&signup.get('password').touched,'is-valid':signup.get('password').valid}" >
+            <div *ngIf="signup.get('password').invalid&&signup.get('password').touched">
+                <p style="color: red" *ngIf="signup.get('password').errors.required">please enter the correct password</p>
+                <p style="color: red" *ngIf="signup.get('password').errors.minlength">please enter the minlength</p>
+                <p style="color: red" *ngIf="signup.get('password').errors.pattern">please enter the valid</p>
+                </div>
+                Address:
+                <input type="text" formControlName="address" class="form-control" [ngClass]="{'is-invalid':signup.get('address').invalid&&signup.get('address').touched,'is-valid':signup.get('address').valid}" >
+                <div *ngIf="signup.get('address').invalid&&signup.get('address').touched">
+                    <p style="color: red" *ngIf="signup.get('address').errors.required">please enter the correct address</p>
+                    <p style="color: red" *ngIf="signup.get('address').errors.minlength">please enter the minlength</p>
+                    <p style="color: red" *ngIf="signup.get('address').errors.pattern">please enter the minlength</p>
+                    </div>
+           <br>
+        
+        <button class="pull-right" type="submit" class="btn btn-lg btn-success" [disabled]="!signup.valid">submit</button>
+        </form>
+    </div></div>

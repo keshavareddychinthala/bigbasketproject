@@ -1,0 +1,26 @@
+<br>
+<br>
+<br>
+<br>
+<div class="row mx-auto container">
+    <div class="mx-auto col-4">
+        <img src="{{obj1.pic}}" style="height: 500px;width: 500px;" class="img-responsive mx-auto zoom "><br>
+    </div>
+    <div class="mx-auto col-6">
+        <div *ngIf="!status">
+            <button  class="btn btn-primary " (click)="fn()">Add to cart</button>
+            </div>
+            <br>
+            <div >
+<button  class="btn btn-primary ">Buy</button>
+            </div>
+            <br>
+            <div class="my-auto responsive">
+                <h3>{{obj1.name}}</h3>
+                <h3>{{obj1.price}}/-<br>
+                </h3>
+            </div>
+    </div>
+    
+</div>
+

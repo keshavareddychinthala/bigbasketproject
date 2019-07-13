@@ -1,0 +1,15 @@
+<br><br><br><br>
+
+<div class="row mx-auto container" >
+       
+    <div class="jumbotron mx-4 col-3 bg-light box" *ngFor="let i of detail">
+            
+    <a [routerLink]="['/details',i.id,i.pic]">
+            
+       
+            <img  src="{{i.pic}}" width="200px" class="img-fluid img-responsive "></a>
+        <section class="mx-4"> <p>{{i.name}}</p>
+            <p>{{i.price}}/-</p>
+        </section>
+    </div>
+</div>

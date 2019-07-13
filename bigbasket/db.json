@@ -1,0 +1,430 @@
+{
+  "signup": [
+    {
+      "username": "karuppi",
+      "password": "fdhdfhdfh",
+      "contact": "1111111111",
+      "address": "dfhdfhdfhdfhd",
+      "id": 1
+    },
+    {
+      "username": "keshava",
+      "password": "csacascaca",
+      "contact": "1111111111",
+      "address": "sdcwcwecwcwcwc",
+      "id": 2
+    },
+    {
+      "username": "rgrgegerg",
+      "password": "fbfdbddfbdfbdfbdf",
+      "contact": "4344444444",
+      "address": "fbdfbdfbbdfbdfb",
+      "id": 3
+    },
+    {
+      "username": "murali",
+      "password": "vjhjhgjhgjhgjh",
+      "contact": "4242424242",
+      "address": "jhghkgkhgk",
+      "id": 4
+    },
+    {
+      "username": "murali",
+      "password": "muralibrand",
+      "contact": "6666666666",
+      "address": "jhgjhgfjhgjhfjh",
+      "id": 5
+    },
+    {
+      "username": "lahari",
+      "password": "lahariaa",
+      "contact": "1234656788",
+      "address": "errfsrgtrgf",
+      "id": 6
+    },
+    {
+      "username": "keshavaa",
+      "password": "qwertyuiop",
+      "contact": "7894561230",
+      "address": "asdfghewtera",
+      "id": 7
+    },
+    {
+      "username": "keshava",
+      "password": "Keshavareddy",
+      "contact": "1234567890",
+      "address": "hsjdkfgdgdfhd",
+      "id": 8
+    },
+    {
+      "username": "razak",
+      "password": "asdfghjkl",
+      "contact": "9888888888",
+      "address": "madanapalle",
+      "id": 9
+    },
+    {
+      "username": "keshava",
+      "password": "Keshavar",
+      "contact": "3940748945",
+      "address": "shdfsdhdfhjfd",
+      "id": 10
+    },
+    {
+      "username": "kesh",
+      "password": "keshavare",
+      "contact": "1234567890",
+      "address": "fsgjffgtrhgf",
+      "id": 11
+    },
+    {
+      "username": "dinesh",
+      "password": "konjappa",
+      "contact": "8888888888",
+      "address": "punghhambbv",
+      "id": 12
+    },
+    {
+      "username": "asdfgh",
+      "password": "qwertyuiop",
+      "contact": "8527894561",
+      "address": "gvjubvgjbhjbh",
+      "id": 13
+    },
+    {
+      "username": "keshava",
+      "password": "keshavac",
+      "contact": "6485476578",
+      "address": "edfdsesdfeds",
+      "id": 14
+    },
+    {
+      "username": "aditya",
+      "password": "karuppia",
+      "contact": "1616166161",
+      "address": "jhgdjhgdjhgd",
+      "id": 15
+    }
+  ],
+  "dryfruits": [
+    {
+      "id": "1",
+      "name": "Walnut Akhrot",
+      "city": "Mumbai",
+      "price": "999",
+      "pic": "https://www.bigbasket.com/media/uploads/p/s/10000537_4-bb-popular-walnutakhrot-kernels.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Sabja seeds",
+      "city": "Bangalore",
+      "price": "999",
+      "pic": "https://www.bigbasket.com/media/uploads/p/s/20000474_3-bb-royal-sabja-seeds.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Dried fruit-Cranberries",
+      "city": "Bangalore",
+      "price": "8995",
+      "pic": "https://www.bigbasket.com/media/uploads/p/s/40100015_3-bb-royal-dried-fruit-cranberries.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Royal Hazelnut",
+      "city": "Bangalore",
+      "price": "899 ",
+      "pic": "https://www.bigbasket.com/media/uploads/p/s/10000517_4-bb-royal-hazelnut.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Organic Almond Badam",
+      "city": "Bombay",
+      "price": "8989",
+      "pic": "https://www.bigbasket.com/media/uploads/p/s/40101871_8-bb-royal-organic-almondbadam.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Cashew-Kaju",
+      "city": "dv",
+      "price": "353",
+      "pic": "https://www.bigbasket.com/media/uploads/p/s/10000552_5-bb-royal-cashewkaju-whole.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Roasted & Salted Pista",
+      "city": "Bangalore",
+      "price": "8999",
+      "pic": "https://www.bigbasket.com/media/uploads/p/s/10000495_10-bb-royal-pista-roasted-salted-irani.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Green Pumpkin Seeds",
+      "city": "HYDERABAD",
+      "price": "656",
+      "pic": "https://www.bigbasket.com/media/uploads/p/s/40053922_6-bb-royal-green-pumpkin-seeds.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Lion Dates",
+      "city": "opqrst",
+      "price": "486049e",
+      "pic": "https://www.bigbasket.com/media/uploads/p/mm/163577_2-lion-dates-deseeded.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Watermelon Seeds",
+      "city": "opqrst",
+      "price": "2353",
+      "pic": "https://www.bigbasket.com/media/uploads/p/mm/40053894_1-bb-royal-watermelontarbuj-seeds.jpg"
+    }
+  ],
+  "homekitchen": [
+    {
+      "id": "1",
+      "name1": "Dog Food",
+      "price1": "999",
+      "pic1": "https://www.bigbasket.com/media/uploads/p/s/70001924_12-pedigree-wet-dog-food-chicken-liver-chunks-in-gravy-for-adult-dogs.jpg"
+    },
+    {
+      "id": "2",
+      "name1": "Duracell batteries",
+      "price1": "999",
+      "pic1": "https://www.bigbasket.com/media/uploads/p/s/277341_6-duracell-ultra-alkaline-battery-aaa.jpg"
+    },
+    {
+      "id": "3",
+      "name1": "H20 Water Bottles",
+      "price1": "8995",
+      "pic1": "https://www.bigbasket.com/media/uploads/p/s/40080582_2-cello-h2o-unbreakable-water-bottle-green.jpg"
+    },
+    {
+      "id": "4",
+      "name1": "Egg Beater-steel",
+      "price1": "899 ",
+      "pic1": "https://www.bigbasket.com/media/uploads/p/s/40117708_1-kvg-mixing-egg-beater-whisk-stainless-steel.jpg"
+    },
+    {
+      "id": "5",
+      "name1": "Water bottles pack",
+      "price1": "8989",
+      "pic1": "https://www.bigbasket.com/media/uploads/p/s/40123387_5-steelo-sunpet-water-bottle-apsara-rasna-assorted-colour.jpg"
+    },
+    {
+      "id": "6",
+      "name1": "Light bulb",
+      "price1": "8989",
+      "pic1": "https://www.bigbasket.com/media/uploads/p/mm/40159816_2-agaro-led-bulb-9-watt-cool-daylight-b22-base.jpg"
+    },
+    {
+      "id": "7",
+      "name1": "Stainless steel bootle",
+      "price1": "8989",
+      "pic1": "https://www.bigbasket.com/media/uploads/p/s/40097099_2-dr-copper-water-bottle-seamless-copper.jpg"
+    },
+    {
+      "id": "8",
+      "name1": "Presitage",
+      "price1": "8989",
+      "pic1": "https://www.bigbasket.com/media/uploads/p/mm/40008570_1-prestige-popular-aluminium-pressure-cooker.jpg"
+    },
+    {
+      "id": "9",
+      "name1": "Tea/Juice strainer",
+      "price1": "8989",
+      "pic1": "https://www.bigbasket.com/media/uploads/p/mm/40145992_1-sri-lalit-arts-tea-strainer-juice-strainer-large.jpg"
+    },
+    {
+      "id": "10",
+      "name1": "Chopping board",
+      "price1": "8989",
+      "pic1": "https://www.bigbasket.com/media/uploads/p/mm/40133718_2-bb-home-chopping-cutting-board-bamboo-wood-steel-handle-bh-043.jpg"
+    }
+  ],
+  "mango": [
+    {
+      "id": 1,
+      "pic": "https://www.bigbasket.com/media/uploads/p/s/10000298_10-fresho-banganapalli-mango.jpg",
+      "name": "Banginapalli Mango",
+      "weight": "1kg",
+      "cost": "200",
+      "add": "add to cart"
+    },
+    {
+      "id": 2,
+      "pic": "https://www.bigbasket.com/media/uploads/p/s/10000590_9-fresho-totapuri-mango.jpg",
+      "name": "Totapuri Mango",
+      "weight": "1kg",
+      "cost": "250",
+      "add": "add to cart"
+    },
+    {
+      "id": 3,
+      "pic": "https://www.bigbasket.com/media/uploads/p/s/10000343_3-fresho-neelam-mango.jpg",
+      "name": "Neelam Mango",
+      "weight": "1.5kg",
+      "cost": "400",
+      "add": "add to cart"
+    },
+    {
+      "id": 4,
+      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr_pXORfpDEipg7ASPwu5ENlgT4NaFIKUCp9qLrb_-zq3fmjN7Tg",
+      "name": "Glenn Mango",
+      "weight": "1kg",
+      "cost": "300",
+      "add": "add to cart"
+    },
+    {
+      "id": 5,
+      "pic": "https://www.bigbasket.com/media/uploads/p/s/30001003_2-fresho-dasheri-mango.jpg",
+      "name": "badami",
+      "weight": "1kg",
+      "cost": "200",
+      "add": "add to cart"
+    },
+    {
+      "id": 6,
+      "pic": "https://www.itourvn.com/images/easyblog_images/Fruits/fruits-mango.jpg",
+      "name": "chaunsa",
+      "weight": "1kg",
+      "cost": "200",
+      "add": "add to cart"
+    },
+    {
+      "id": 7,
+      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy7J_QLQAV8Kn_1IFgveUaZzzT-BJvr6mXoFVAT0sAXXTpkt2DxQ",
+      "name": "Himsagar",
+      "weight": "1kg",
+      "cost": "200",
+      "add": "add to cart"
+    },
+    {
+      "id": 8,
+      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr_pXORfpDEipg7ASPwu5ENlgT4NaFIKUCp9qLrb_-zq3fmjN7Tg",
+      "name": "Neelam Mango",
+      "weight": "1kg",
+      "cost": "200",
+      "add": "add to cart"
+    },
+    {
+      "id": 9,
+      "pic": "https://www.bigbasket.com/media/uploads/p/s/10000298_10-fresho-banganapalli-mango.jpg",
+      "name": "Mallika",
+      "weight": "1kg",
+      "cost": "200",
+      "add": "add to cart"
+    },
+    {
+      "id": 10,
+      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB-CJKryoB-cSE2R8yHoprBl9_q8YSnUxOz5w0QvDAC2JFAcVssg",
+      "name": "Raspuri",
+      "weight": "1kg",
+      "cost": "200",
+      "add": "add to cart"
+    }
+  ],
+  "deal": [
+    {
+      "id": 1,
+      "pic": "https://www.bigbasket.com/media/uploads/p/mm/40108927_5-gooddiet-white-quinoa-flour.jpg",
+      "name": "White Qunaa Flour",
+      "weight": "500gm",
+      "cost": "299",
+      "add": "add to cart"
+    },
+    {
+      "id": 2,
+      "pic": "https://www.bigbasket.com/media/uploads/p/mm/40141851_2-dove-intense-repair-shampoo.jpg",
+      "name": "Intence Repair Shampoo",
+      "weight": "1L",
+      "cost": "500",
+      "add": "add to cart"
+    },
+    {
+      "id": 3,
+      "pic": "https://www.bigbasket.com/media/uploads/p/mm/40088221_5-lindberg-dark-chocolate-with-cranberries-bar-pure-belgian.jpg",
+      "name": "Dark chocolate",
+      "weight": "50gms",
+      "cost": "400",
+      "add": "add to cart"
+    },
+    {
+      "id": 4,
+      "pic": "https://www.bigbasket.com/media/uploads/p/mm/40098409_6-bb-royal-organic-kabuli-chanachanna.jpg",
+      "name": "Arganic kaballi chana",
+      "weight": "1kg",
+      "cost": "300",
+      "add": "add to cart"
+    },
+    {
+      "id": 5,
+      "pic": "https://www.bigbasket.com/media/uploads/p/mm/100076751_8-b-natural-juice-guava-gush.jpg",
+      "name": "Juice Guava Gush",
+      "weight": "1L",
+      "cost": "200",
+      "add": "add to cart"
+    },
+    {
+      "id": 6,
+      "pic": "https://www.bigbasket.com/media/uploads/p/mm/303219_7-borges-durum-wheat-pasta-penne-rigate.jpg",
+      "name": "Dream Wheet pasta",
+      "weight": "500gms",
+      "cost": "700",
+      "add": "add to cart"
+    },
+    {
+      "id": 7,
+      "pic": "https://www.bigbasket.com/media/uploads/p/mm/40073427_1-bb-popular-cardamomelaichi-green.jpg",
+      "name": "Cardamom",
+      "weight": "500gms",
+      "cost": "500",
+      "add": "add to cart"
+    },
+    {
+      "id": 8,
+      "pic": "https://www.bigbasket.com/media/uploads/p/mm/212714_18-hudson-canola-oil.jpg",
+      "name": "Canola oil",
+      "weight": "1L",
+      "cost": "500",
+      "add": "add to cart"
+    },
+    {
+      "id": 9,
+      "pic": "https://www.bigbasket.com/media/uploads/p/mm/10000473_8-bb-royal-ragi-flournachni-atta.jpg",
+      "name": "Ragi flour",
+      "weight": "1kg",
+      "cost": "200",
+      "add": "add to cart"
+    },
+    {
+      "id": 10,
+      "pic": "https://www.bigbasket.com/media/uploads/p/mm/40123586_1-ayurvaidic-plates-leaf-areca-12-inches.jpg",
+      "name": "plates",
+      "weight": "5",
+      "cost": "900",
+      "add": "add to cart"
+    }
+  ],
+  "org": [
+    {
+      "pic": "https://www.bigbasket.com/media/uploads/flatpages/organic-Store-43579/FP_OrganicStore_1000px_01.jpg"
+    },
+    {
+      "pic": "https://www.bigbasket.com/media/uploads/flatpages/organic-Store-43579/FP_OrganicStore_1000px_02.jpg"
+    },
+    {
+      "pic": "https://www.bigbasket.com/media/uploads/flatpages/organic-Store-43579/FP_OrganicStore_1000px_03.jpg"
+    },
+    {
+      "pic": "https://www.bigbasket.com/media/uploads/flatpages/organic-Store-43579/FP_OrganicStore_1000px_04.jpg"
+    },
+    {
+      "pic": "https://www.bigbasket.com/media/uploads/flatpages/organic-Store-43579/FP_OrganicStore_1000px_05.jpg"
+    },
+    {
+      "pic": "https://www.bigbasket.com/media/uploads/flatpages/organic-Store-43579/FP_OrganicStore_1000px_06.jpg"
+    },
+    {
+      "pic": "https://www.bigbasket.com/media/uploads/flatpages/organic-Store-43579/FP_OrganicStore_1000px_07.jpg"
+    }
+  ]
+}

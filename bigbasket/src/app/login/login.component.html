@@ -1,0 +1,34 @@
+<br><br><br><br><br><br><br><br>
+        <div class="jumbotron col-5 container">
+           <h4> LogIn</h4>
+            <form [formGroup]="login" (submit)="f(login.value)">
+                <div class="Jumbotron form-group">
+                    Username:
+                    <input type="text" formControlName="username" class="form-control">
+                    <div *ngIf="login.get('username').invalid&&login.get('username').touched">
+                        <p style="color: red" *ngIf="login.get('username').errors.required">please enter the name</p>
+                        <p style="color: red" *ngIf="login.get('username').errors.minlength">please enter the minlength</p>
+                        <p style="color: red" *ngIf="login.get('username').errors.pattern">please enter valid name</p>
+                        </div>
+                    Password:
+                    <input type="text" formControlName="password" class="form-control">
+                    <div *ngIf="login.get('password').invalid&&login.get('password').touched">
+                        <p style="color: red" *ngIf="login.get('password').errors.required">please enter the correct password</p>
+                        <p style="color: red" *ngIf="login.get('password').errors.minlength">please enter the minlength</p>
+                        <p style="color: red" *ngIf="login.get('password').errors.pattern">please enter valid password</p>
+                        </div>
+                        
+                   
+                </div>
+                <br>
+                <button class="btn btn-success btn-lg" [disabled]="!login.valid" >Login</button>
+                <div *ngIf="val">
+                    <p style="color: red">Please enter Valid Credentials</p>
+                  </div>
+
+
+                  
+                </form>
+                <br>
+                <p style="text-align: right"><b>Not Registered user?&nbsp;&nbsp;</b><button class="btn btn-info" (click)="reg()">Register</button></p>
+            </div>
